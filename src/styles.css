@@ -18,6 +18,12 @@ ul {
   font-family: "ralewayBig";
 }
 
+.block-choice-section1 {
+  display: flex;
+  justify-content: center;
+}
+
+/*******************FOOTER********************/
 .footer-main {
   display: flex;
   flex-direction: column;
@@ -52,8 +58,8 @@ ul {
 .footer-second {
   display: flex;
   flex-direction: row;
-  align-items: space-between;
-  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: flex-start;
 
   color: gray;
 }
