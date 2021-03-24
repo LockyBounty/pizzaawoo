@@ -23,6 +23,34 @@ ul {
   justify-content: center;
 }
 
+/*******************HEADER********************/
+.header_main_zone {
+  display: flex;
+  flex-direction: row;
+}
+.header_first_zone {
+  display: flex;
+  flex-direction: row;
+}
+.header_second_zone {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+.header_menu_zone {
+  display: flex;
+}
+.header_menu_zone > ul {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+}
+.header_login_zone {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+}
 /*******************FOOTER********************/
 .footer-main {
   display: flex;
