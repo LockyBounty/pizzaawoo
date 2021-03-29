@@ -1,4 +1,4 @@
-import Pizzas from "./Recipe";
+import { Pizzas, Topping, Drink } from "./Recipe";
 import "./styles.css";
 
 const Listing = () => (

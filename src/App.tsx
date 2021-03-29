@@ -5,12 +5,13 @@ import LandPage from "./Landpage";
 import Pizza from "./Recipe";
 import Listing from "./Listing";
 import Header from "./Header";
+import { Custom } from "./Custom";
 
 export default function App() {
   return (
     <div className="App">
       <Header />
-      <Listing />
+      <Custom />
       {/*<Footer />*/}
     </div>
   );

@@ -1,4 +1,4 @@
-const Pizzas = [
+export const Pizzas = [
   {
     nom: "Margarita",
     recette: ["Sauce Tomate", "Mozzarella", "Basilic"],
@@ -54,8 +54,8 @@ const Pizzas = [
   }
 ];
 
-/*
-const Topping = [
+
+export const Topping = [
   "Anchois",
   "Boulettes de boeuf",
   "Thym",
@@ -65,7 +65,7 @@ const Topping = [
   "Olive"
 ];
 
-const Drink = [
+export const Drink = [
   "A&W root",
   "Coca Cola",
   "Coca Cola Zero",
@@ -74,7 +74,9 @@ const Drink = [
   "Pepsi"
 ];
 
+
+/*
 export { Pizzas, Topping, Drink };
 */
 
-export default Pizzas;
+//export default Pizzas;
