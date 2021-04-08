@@ -23,6 +23,15 @@ ul {
   justify-content: center;
 }
 
+/***NAVBAR CUSTOM***/
+.navbar_main {
+  display: flex;
+  flex-direction: row;
+}
+.navbar_main > div {
+  margin: 10px;
+}
+
 /*******************HEADER********************/
 .header_main_zone {
   display: flex;

@@ -1,15 +1,18 @@
 export const Pizzas = [
   {
+    id: 1,
     nom: "Margarita",
     recette: ["Sauce Tomate", "Mozzarella", "Basilic"],
     prix: 8
   },
   {
+    id: 2,
     nom: "Quatre Fromages",
     recette: ["Sauce Tomate", "Gorgonzola", "Mozzarella", "Feta"],
     prix: 10
   },
   {
+    id: 3,
     nom: "Quatre Saisons",
     recette: [
       "Sauce Tomate",
@@ -22,6 +25,7 @@ export const Pizzas = [
     prix: 14
   },
   {
+    id: 4,
     nom: "Barbecue",
     recette: [
       "Sauce Tomate",
@@ -35,11 +39,13 @@ export const Pizzas = [
     prix: 11
   },
   {
+    id: 5,
     nom: "Pepperoni",
     recette: ["Sauce Tomate", "Oignon", "Mozzarella", "Pepperoni"],
     prix: 12
   },
   {
+    id: 6,
     nom: "Vegetarien",
     recette: [
       "Sauce Tomate",
@@ -53,7 +59,6 @@ export const Pizzas = [
     prix: 9
   }
 ];
-
 
 export const Topping = [
   "Anchois",
@@ -73,7 +78,6 @@ export const Drink = [
   "Dr. Pepper",
   "Pepsi"
 ];
-
 
 /*
 export { Pizzas, Topping, Drink };
