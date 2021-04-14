@@ -4,6 +4,7 @@ import LandPage from "./Landpage";
 //import Subscription from "./Subscription";
 //import Pizza from "./Recipe";
 import Listing from "./Listing";
+import Login from "./login/Login";
 import ListingDetails from "./ListingDetails";
 //import Header from "./Header";
 //import { Custom } from "./Custom";
@@ -20,9 +21,15 @@ export default function App() {
           <div>
             <Link to="/pizzas">Pizzas</Link>
           </div>
+          <div>
+            <Link to="/login">Login</Link>
+          </div>
         </nav>
 
         <Switch>
+          <Route exact path="/login">
+            <Login />
+          </Route>
           <Route exact path="/">
             <LandPage />
           </Route>

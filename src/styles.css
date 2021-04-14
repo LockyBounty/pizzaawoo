@@ -23,6 +23,23 @@ ul {
   justify-content: center;
 }
 
+/***FORM CUSTOM***/
+.form-login-block {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
 /***NAVBAR CUSTOM***/
 .navbar_main {
   display: flex;
