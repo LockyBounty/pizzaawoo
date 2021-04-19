@@ -49,6 +49,20 @@ ul {
   margin: 10px;
 }
 
+/*******************LOGIN POPUP********************/
+
+.login-form-zone {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.auth-input-box {
+  align-items: center;
+  text-align: center;
+  height: 40px !important;
+}
+
 /*******************HEADER********************/
 .header_main_zone {
   display: flex;

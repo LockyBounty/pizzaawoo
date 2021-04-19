@@ -9,6 +9,7 @@
   ],
   "main": "src/index.tsx",
   "dependencies": {
+    "@material-ui/core": "4.11.3",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-router-dom": "latest",
