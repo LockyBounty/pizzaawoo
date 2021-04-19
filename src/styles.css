@@ -54,12 +54,18 @@ ul {
 .login-form-zone {
   display: flex;
   flex-direction: column;
+
   margin: 10px 0;
+  /*justify-content: space-evenly;*/
+}
+.login-form-zone > div {
+  margin-bottom: 30px;
 }
 
 .auth-input-box {
   align-items: center;
   text-align: center;
+  margin-bottom: 20px;
   height: 40px !important;
 }
 .forgotten-password {

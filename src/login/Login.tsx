@@ -1,7 +1,7 @@
 import "../styles.css";
 import { useState } from "react";
 
-import Button from "@material-ui/core/Button";
+import { Button } from "@material-ui/core";
 import TextField from "@material-ui/core/TextField";
 import {
   Input,
@@ -64,7 +64,7 @@ function Login() {
         >
           <DialogTitle id="form-dialog-title">Authentification</DialogTitle>
           <DialogContent className="login-form-zone">
-            <FormControl variant="outlined">
+            <FormControl variant="outlined" className="auth-input-box">
               <InputLabel>Email</InputLabel>
               <OutlinedInput
                 autoFocus
@@ -86,7 +86,7 @@ function Login() {
               />
             </FormControl>
 
-            <FormControl className="login-form-zone" variant="outlined">
+            <FormControl className="auth-input-box" variant="outlined">
               <InputLabel>Password</InputLabel>
               <OutlinedInput
                 id="pass"
@@ -110,6 +110,9 @@ function Login() {
           <div className="forgotten-password">Mot de passe oublié ?</div>
           <DialogActions>
             <Button onClick={handleClose} color="primary">
+              Créer un compte
+            </Button>
+            <Button onClick={handleClose} color="secondary" variant="contained">
               Connexion
             </Button>
           </DialogActions>
