@@ -107,6 +107,7 @@ function Login() {
               />
             </FormControl>
           </DialogContent>
+          <div className="forgotten-password">Mot de passe oublié ?</div>
           <DialogActions>
             <Button onClick={handleClose} color="primary">
               Connexion
