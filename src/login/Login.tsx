@@ -18,6 +18,8 @@ import FormControl from "@material-ui/core/FormControl";
 import IconButton from "@material-ui/core/IconButton";
 
 function Login() {
+  const mail1 = "admin@test.com";
+  const p1 = "test";
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [open, setOpen] = useState(false);
@@ -112,7 +114,12 @@ function Login() {
             <Button onClick={handleClose} color="primary">
               Créer un compte
             </Button>
-            <Button onClick={handleClose} color="secondary" variant="contained">
+            <Button
+              onClick={handleClose}
+              color="secondary"
+              variant="contained"
+              disableElevation
+            >
               Connexion
             </Button>
           </DialogActions>

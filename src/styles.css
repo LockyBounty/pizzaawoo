@@ -70,6 +70,9 @@ ul {
 }
 .forgotten-password {
   padding-left: 30px;
+  font-weight: 800;
+  font-family: "Ubuntu";
+  color: dodgerblue;
 }
 
 /*******************HEADER********************/
